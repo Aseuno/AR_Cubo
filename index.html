@@ -31,9 +31,18 @@ height:100vh;
 <body>
 
 <model-viewer
-src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+src="cubo.glb"
 ar
-camera-controls>
+ar-modes="scene-viewer webxr quick-look"
+camera-controls
+touch-action="pan-y"
+auto-rotate
+shadow-intensity="1">
+
+<button slot="ar-button">
+Ver en AR
+</button>
+
 </model-viewer>
 
 </body>
