@@ -27,11 +27,11 @@ height:100vh;
 #ar-button{
 position:absolute;
 left:50%;
-bottom:5vh;
+bottom:25vh;
 
 transform:translateX(-50%);
 
-padding:16px 28px;
+padding:30px 60px;
 
 font-size:clamp(16px,2.5vw,22px);
 
@@ -54,10 +54,10 @@ cursor:pointer;
 src="cubo.glb"
 ar
 ar-placement="floor"
+ar-scale="fixed"
 shadow-intensity="1"
 camera-controls
-touch-action="pan-y"
-auto-rotate>
+touch-action="pan-y">
 
  <button slot="ar-button" id="ar-button">
   Ver en AR
